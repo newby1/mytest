@@ -137,14 +137,13 @@ public class MainActivity extends Activity{
 bundle参数说明
 
 |参数|类型|必须|参数说明|
-
 |---|---|---|---|
 |appid|String|Y|平台申请得到|
-
 |appsecret|String|Y|平台申请得到|
-
 |channelid|String|Y|渠道id，平台申请得到|
+
 ### 2.2 登录接口
+
 #### 2.2.1 代码示例
 ```
 sdk.login(MainActivity.this, new SeiYaSdk.Callback() {
@@ -162,18 +161,23 @@ sdk.login(MainActivity.this, new SeiYaSdk.Callback() {
 sdk实例化后，可以按需调`login`方法。
 #### 2.2.3 参数、回调说明 <span id="callback"></span>
 调用方法传参说明
+
 |参数|类型|必须 |参数说明| 
 |---|---|---|---|
 |activity|Activity|Y|当前activity对象|
 |callback|SeiYaSdk.Callback|Y|SeiYaSdk.Callback为接口,方法必须实现。登录成功或者失败的回调|
+
 callback onSuccess 回调参数说明。
+
 |参数|类型|参数说明| 
 |---|---|---|
 |uid|String|用户id|
 |username|String|用户名称|
 |avatar|String|用户头像|
 |biz_token|String|业务token，用户业务核验，会失效|
+
 callback onFail 回调参数说明
+
 |参数 |类型|参数说明| 
 |---|---|---|
 |errno|int|错误码。负值为网络错误；600以下一般为http状态返回|
