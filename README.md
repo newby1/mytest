@@ -135,6 +135,7 @@ public class MainActivity extends Activity{
 整个sdk是个单例，通过`getInstance()`来获取实例，首次调用必须把app相关信息传递过来。
 #### 2.1.3 参数、回调说明
 bundle参数说明
+
 |参数|类型|必须|参数说明|
 
 |---|---|---|---|
