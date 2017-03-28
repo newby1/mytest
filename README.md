@@ -136,9 +136,12 @@ public class MainActivity extends Activity{
 #### 2.1.3 参数、回调说明
 bundle参数说明
 |参数|类型|必须|参数说明|
+
 |---|---|---|---|
 |appid|String|Y|平台申请得到|
+
 |appsecret|String|Y|平台申请得到|
+
 |channelid|String|Y|渠道id，平台申请得到|
 ### 2.2 登录接口
 #### 2.2.1 代码示例
